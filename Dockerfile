@@ -1,4 +1,4 @@
-FROM rust:1.42.0 as build
+FROM rust:1.44.1 as build
 WORKDIR /app
 ADD . .
 RUN rustup component add rustfmt && cargo build --release
