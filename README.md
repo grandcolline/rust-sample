@@ -1,5 +1,0 @@
-# rust-sample
-
-## run
-
-
